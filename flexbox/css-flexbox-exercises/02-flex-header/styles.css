@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header  {
+  font-family: monospace;
+  background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.left-links {
+    display: flex;
+    /* grouped the links and centers them together */
+    align-items: center;
+}
+
+.right-links {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* putting display flex made the ul elements go into a row instead of stacked on top each other */
+  display: flex;
+  gap: 8px;
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+}
